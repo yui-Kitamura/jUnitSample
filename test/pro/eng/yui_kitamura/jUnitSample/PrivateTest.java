@@ -10,7 +10,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PrivateTest {
 
     /** 可視度が private のメソッドを呼び出す
-     * @param arg 呼び出すメソッドへ渡す引数 */
+     * @param instance 呼び出すメソッドを持っているクラスのインスタンス
+     * @param arg 呼び出すメソッドへ渡す引数
+     */
     private int testablePrivateMethod(TargetClass instance, int arg){
         int result;
         try {
