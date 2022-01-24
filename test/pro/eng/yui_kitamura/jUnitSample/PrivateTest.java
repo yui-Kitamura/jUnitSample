@@ -26,9 +26,9 @@ class PrivateTest {
         return result;
     }
 
-    /** 可視度が public になっているメソッドのテスト */
+    /** 可視度が private になっているメソッドのテスト */
     @Test
-    void testPublicMethod() {
+    void testPrivateMethod() {
         TargetClass targetClass = new TargetClass();
         int arg = 0;
         assertEquals(2, testablePrivateMethod(targetClass, arg));
