@@ -1,4 +1,4 @@
-package pro.eng.yui_kitamura.jUnitSample;
+package pro.eng.yui.jUnitSample;
 
 public class TargetClass {
 

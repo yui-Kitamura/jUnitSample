@@ -1,6 +1,7 @@
-package pro.eng.yui_kitamura.jUnitSample;
+package pro.eng.yui.jUnitSample;
 
 import org.junit.jupiter.api.Test;
+import pro.eng.yui.jUnitSample.TargetStaticClass;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

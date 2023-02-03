@@ -1,6 +1,7 @@
-package pro.eng.yui_kitamura.jUnitSample;
+package pro.eng.yui.jUnitSample;
 
 import org.junit.jupiter.api.Test;
+import pro.eng.yui.jUnitSample.TargetStaticClass;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
